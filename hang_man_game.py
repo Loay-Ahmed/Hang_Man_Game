@@ -10,3 +10,4 @@ _|_
 ]
 for i in hang_man:
     print(i)
+    
