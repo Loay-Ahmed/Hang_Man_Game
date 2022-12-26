@@ -5,7 +5,6 @@ import random
 with open("words.txt", "r") as file:
     words = (file.read()).split(" ")
 
-print(words)
 # different stages for wrong guess
 hangman = ["""
   ______
