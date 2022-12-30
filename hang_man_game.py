@@ -2,8 +2,9 @@
 
 import random
 
-with open("words.txt", "r") as file:
-    words = (file.read()).split(" ")
+words = "fox deer lion cheetah jaguar"
+words += "wolf zebra horse tiger monkey aligator whale"
+words += "fish bird eagle owl rabbit giraffe cow sheep bear hog elephant hippo rhino"
 
 # different stages for wrong guess
 hangman = ["""
